@@ -1,0 +1,41 @@
+{
+  "name": "koa2",
+  "version": "1.0.0",
+  "description": "koa2 as graphql server",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js",
+    "build": "babel src --out-dir lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koa2",
+    "graphql"
+  ],
+  "author": "sherman",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "graphql-server-express": "^1.0.5",
+    "graphql-server-koa": "^1.0.5",
+    "graphql-subscriptions": "^0.4.4",
+    "graphql-tools": "^1.1.0",
+    "kcors": "^2.2.1",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.2.1",
+    "subscriptions-transport-ws": "^0.8.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+    "babel-plugin-transform-es2015-parameters": "^6.24.1",
+    "babel-plugin-transform-es2015-spread": "^6.22.0",
+    "babel-plugin-transform-strict-mode": "^6.24.1",
+    "nodemon": "^1.11.0"
+  }
+}
